@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react"
+import { BrowserRouter, Switch, Route } from "react-router-dom"
+import HomePage from "./pages/HomePage"
+import Main from "./pages/Main"
+import Menu from "./pages/Menu"
+import RestaurantCollection from "./pages/RestaurantCollection"
 
 function App() {
+  const [inputText, setInputText] = useState("")
+  const [flag, setFlag] = useState(null)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <HomePage flag={flag} setInputText={setInputText} />
+        </Route>
+        <Route exact path="/mainpage">
+          <Main setFlag={setFlag} inputText={inputText} />
+        </Route>
+        <Route exact path="/collection/:collection">
+          <RestaurantCollection />
+        </Route>
+        <Route exact path="/:restaurant/menu">
+          <Menu />
+        </Route>
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

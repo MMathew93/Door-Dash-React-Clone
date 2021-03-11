@@ -1,0 +1,108 @@
+.toCheckOut{
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 40px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(235, 23, 0);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+}
+
+.toCheckOutWrapper {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    transition: opacity 0.15s ease-in-out 0s;
+    opacity: 1;
+}
+
+.toCheckOutStyle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-variant-ligatures: no-common-ligatures;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.itemContent {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 20px;
+    padding: 16px;
+}
+
+.itemTotal {
+    flex-shrink: 0;
+    align-self: flex-start;
+    grid-area: 2 / 1 / auto / auto;
+}
+
+.itemDetails {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    flex-basis: 100%;
+    grid-area: 2 / 2 / auto / auto;
+}
+
+.itemValue {
+    flex-shrink: 0;
+    align-self: flex-start;
+    grid-area: 2 / 3 / auto / auto;
+}
+
+.removeItemFromCart {
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    width: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: rgb(165 211 242 / 0%) 0px 0px 0px 3px;
+}
+
+.buttonText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(235, 23, 0);
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}

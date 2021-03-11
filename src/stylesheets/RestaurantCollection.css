@@ -1,0 +1,98 @@
+.restaurantsWrapper {
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 960px;
+    flex-direction: row;
+}
+
+.leftSide {
+    flex: 33 1 0%;
+    z-index: 1;
+}
+
+.restaurantBox {
+    display: flex; 
+    margin: 0px 12px 64px;
+}
+
+.leftSideBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 96px;
+    padding: 12px;
+    position: sticky;
+    top: 64px;
+}
+
+.backLink {
+    text-decoration: none;
+    color: red;
+}
+
+.categoryTitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.rightSide {
+    flex: 66 1 0%;
+    overflow: hidden;
+    padding: 0px 12px;
+}
+
+.restaurantItem {
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 200ms ease-in-out 0s;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 16px;
+}
+
+.rImgStyle {
+    flex: 1 1 auto;
+    position: relative;
+    margin: 24px 16px 4px;
+    display: flex;
+    min-width: 279px;
+    min-height: 140px;
+    max-width: 700px;
+    max-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.restaurantInfo {
+    display: flex;
+    transition: all 200ms ease 0s;
+    width: 100%;
+}
+
+.restaurantDetails {
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+    padding: 8px 16px;
+    opacity: 1;
+    overflow: hidden;
+    transition: all 1000ms ease 0s;
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}

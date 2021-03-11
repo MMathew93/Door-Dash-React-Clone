@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.env
+Requests.js
+
+
+user key in HomPage
+2408c80017fe5f40ea523a140fb6fdf2
+
+Main.js
+2408c80017fe5f40ea523a140fb6fdf2
+Main.js geoAPI variable
+f4884c4ca1a69d

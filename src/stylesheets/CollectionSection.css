@@ -1,0 +1,70 @@
+.collectionsWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin: 50px auto 0;
+}
+
+.categoryBox {
+    display: flex; 
+    margin: 0px 12px 64px;
+}
+
+.descriptionBox {
+    flex: 1 1 auto;
+    padding: 32px 20px 0 0; 
+}
+
+.categoryTitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.categoryButton {
+    background-color: red !important;
+    color: white !important;
+    border-radius: 1000px !important;
+    margin-top: 16px !important;
+}
+
+.buttonTextStyle {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 2px;
+}
+
+.restaurantBox {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 66%;
+    margin-top: 16px;
+}
+
+.imgStyle {
+    display: flex;
+    min-width: 300px;
+    min-height: 150px;
+    max-width: 700px;
+    max-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.subImgStyle {
+    display: flex;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 350;
+    max-height: 175;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}

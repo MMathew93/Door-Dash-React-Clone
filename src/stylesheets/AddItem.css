@@ -1,0 +1,36 @@
+.counterWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.counterBox {
+    display: flex;
+    align-items: center;
+}
+
+.addStyle {
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.inputBox {
+    width: 64px;
+}

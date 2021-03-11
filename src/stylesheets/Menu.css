@@ -1,0 +1,88 @@
+.menuSection {
+    display: flex;
+    flex-direction: column;
+    min-height: 33vh;
+    position: relative;
+    width: 100%;
+}
+
+.mainMenuSection {
+    padding: 0px 16px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 20px;
+    max-width: 960px;
+    width: 100%;
+}
+
+.categoryBlock{
+    width: 100%;
+}
+
+.categoryTitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 32px 0px 16px;
+}
+
+.categorySubSection {
+
+}
+
+.foodItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 4px;
+    display: flex;
+    flex: 5 1 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    break-inside: avoid;
+    text-align: left;
+}
+
+.foodName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+    height: 142px;
+    max-width: 100%;
+    min-width: 0px;
+}
+
+.foodNameTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.foodNameSubInfo {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.foodImage {
+    padding: 0px;
+    flex: 2 1 0%;
+    min-width: 142px;
+    max-width: 142px;
+}
+
+.cartSection {
+    border-left: 1px solid rgb(214, 214, 214);
+    right: 0px;
+    width: 340px;
+    min-width: 340px;
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+    position: fixed;
+    z-index: 1;
+}

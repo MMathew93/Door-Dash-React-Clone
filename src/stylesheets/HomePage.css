@@ -1,0 +1,103 @@
+.display {
+    height: 33vh;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../media/images/desktop_food.jpg);
+}
+
+.heroContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.searchBox {
+    color: black;
+    background: white;
+    border-radius: 32px;
+    padding: 4px 4px 4px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.localFaves {
+    margin: 0 auto;
+    width: 100%;
+    flex: 1 0 auto;
+    max-width: 1260px;
+}
+
+.faveWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.restaurant {
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.becomeBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 96px auto;
+    max-width: 1350px;
+}
+
+.wrapperOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    margin: 0 20px;
+    flex-flow: column nowrap;
+    padding: 16px;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBox > img {
+    height: 154px;
+    width: 154px;
+}
+
+.detailsWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    min-height: 160px;
+    text-align: center;
+}

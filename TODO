@@ -1,0 +1,28 @@
+## HOME PAGE
+Fix API key // process.env stuff
+
+
+## Main PAGE
+Use React-Slick(already installed) to fix the button layout to a carousel
+Make sure to store info so that on refresh it does not break
+refactor the grid display for each category????
+Fix loading while restuarants/images get displayed
+
+
+## NavBar
+1. Fix nav bar to be log in / sign up when user is not logged in'
+
+
+
+
+
+API CALL STACK
+1. Have users type in city or zip
+2. Run Loaction IQ api to get long lat of user input
+3. Feed LocationIQ data into zomato city fetch to get accurate city info
+4. Feed city info into collections fetch to get collections within city
+5. Feed city info and collection info into zomato search to get all restuarants of a collection
+
+
+
+Make sure to store info so that on refresh it does not break
